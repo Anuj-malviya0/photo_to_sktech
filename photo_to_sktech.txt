@@ -1,0 +1,12 @@
+This python script uses opencv to convert images 
+to sketch 
+
+
+
+
+
+
+
+Instructions
+Firstly you need to rename the variable img to
+the name of the image you want to convert 
