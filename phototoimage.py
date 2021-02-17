@@ -22,7 +22,7 @@ inv = 255*gray
 gess = cv2.GaussianBlur(inv,ksize=(15,15),sigmaX=0,sigmaY=0)
 
 final = cv2.divide(gray,255*gess,scale=256)
-cv2.imshow('sfs',final)
-cv2.imshow('sfdss',imgo)
+cv2.imshow('image',imgo)
+cv2.imshow('sketch',final)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
